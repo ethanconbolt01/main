@@ -9,7 +9,7 @@ Here are some important resources:
   * [Our GitHub Repository](https://www.github.com/ethanconbolt01/ethanconbolt01.git) tells you where we are.
   * [Our Corporate Page](https://github.com/SolarTechArchitecture) is where to find out more about us.
   * [Our Slack Workspace](https://www.starshollowuniversity.slack.com) is our day-to-day project management space. [You MUST have an account with us to join the workspace!]
-  * Slack Workspace (continued): [Please contact our enrollment officer, Sarah D. for a invite.] You can contact Sarah by [Email](mailto:agentofnov8@ethannguyen.org)
+  * Slack Workspace (continued): [Please contact our enrollment officer, Sarah D. for a invite.] You can contact Sarah by email at [Email](mailto:agentofnov8@ethannguyen.org)
   * Bugs? Send our management team an [email](mailto:webmaster@ethannguyen.org) or send us a quick DM on social media at [Twitter](https://www.twitter.com/EthanLNguyen33), and we will get back to you as soon as we can!
 
 ## Testing
