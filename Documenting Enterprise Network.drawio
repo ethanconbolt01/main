@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T22:07:32.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="LAsmiK5BXPgqdcu7uTWo" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T22:29:30.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PxWB26xZgTWHwd4YVDyQ" version="24.0.5" type="github">
   <diagram name="Page-1" id="Ac1VdFeOWFnkBSCcHMfR">
-    <mxGraphModel dx="2274" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="U_aHsILoJi3wV-RvtX2z-2" value="" style="shape=mxgraph.signs.tech.ethernet;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-340.55999999999995" y="804" width="151.12" height="36.32" as="geometry" />
-        </mxCell>
-        <mxCell id="U_aHsILoJi3wV-RvtX2z-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="-350" y="590" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="U_aHsILoJi3wV-RvtX2z-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
           <mxGeometry x="-350" y="900" width="170" height="150" as="geometry" />
@@ -117,9 +114,6 @@
         <mxCell id="U_aHsILoJi3wV-RvtX2z-31" value="ROUTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U_aHsILoJi3wV-RvtX2z-32" value="SWITCH" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="640" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="U_aHsILoJi3wV-RvtX2z-33" value="&lt;div&gt;PC-1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="940" width="60" height="30" as="geometry" />
         </mxCell>
@@ -131,6 +125,12 @@
         </mxCell>
         <mxCell id="n0GhnP_xp3Xh2PBAm6MH-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RADIUS / NPS IP ADDRESS&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;10.129.6.221" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-735" y="230" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0GhnP_xp3Xh2PBAm6MH-6" value="" style="shape=mxgraph.rack.cisco.cisco_1905_serial_integrated_services_router;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="630" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0GhnP_xp3Xh2PBAm6MH-7" value="SERIAL CONSOLE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="645" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
