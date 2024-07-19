@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T21:13:32.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="cOCA5ADW0VnWaEmjR_le" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T21:34:58.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="SWvNvC8FzAeOeUgW6a1F" version="24.7.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="1661" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1661" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
         </mxCell>
         <mxCell id="1k9znN38FCww6SanzJEL-97" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="600" y="200" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="sourcePoint" />
             <mxPoint x="720" y="560" as="targetPoint" />
             <Array as="points">
               <mxPoint x="670" y="-170" />
@@ -325,10 +325,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1k9znN38FCww6SanzJEL-115" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="400" y="-200" width="200" height="280" as="geometry" />
+          <mxGeometry x="400" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="1k9znN38FCww6SanzJEL-48" value="University" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-115">
-          <mxGeometry y="10" width="200" height="280" as="geometry" />
+          <mxGeometry width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="1k9znN38FCww6SanzJEL-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-48">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -418,6 +418,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1k9znN38FCww6SanzJEL-81" value="Teachers / Faculty" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-115">
+          <mxGeometry x="30" y="250" width="170" height="30" as="geometry">
+            <mxRectangle width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-138" value="" style="group" vertex="1" connectable="0" parent="1k9znN38FCww6SanzJEL-115">
+          <mxGeometry width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-117" value="TB" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry y="160" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-118" value="Textbooks Used" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry x="30" y="160" width="170" height="30" as="geometry">
+            <mxRectangle width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-119" value="TF" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry y="220" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-120" value="Employment Departments" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry x="30" y="190" width="170" height="30" as="geometry">
+            <mxRectangle width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-121" value="TF" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry y="190" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-122" value="Dept Students" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry x="30" y="220" width="170" height="30" as="geometry">
+            <mxRectangle width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-123" value="TF" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
+          <mxGeometry y="250" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9znN38FCww6SanzJEL-124" value="Teachers / Faculty" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1k9znN38FCww6SanzJEL-138">
           <mxGeometry x="30" y="250" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
