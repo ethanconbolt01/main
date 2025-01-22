@@ -1,34 +1,90 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.6" pages="2">
   <diagram name="Book Collector Database" id="ia-PKxlBBmLhG2BXV1nQ">
-    <mxGraphModel dx="906" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E3tA3_1hQCFTeYViq01W-38" value="Seller (SellerID (PK), Name, ContactInfo)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="200" height="80" as="geometry" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-38" value="Seller (SellerID (PK), Name, ContactInfo)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="187" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-39" value="Supplies" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="220" width="100" height="60" as="geometry" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-39" value="Supplies" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-67" y="370" width="119" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-40" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-38" target="E3tA3_1hQCFTeYViq01W-39">
+        <mxCell id="E3tA3_1hQCFTeYViq01W-40" parent="1" source="E3tA3_1hQCFTeYViq01W-38" target="E3tA3_1hQCFTeYViq01W-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-41" value="Purchase (PurchaseID (PK), PurchaseDate, TotalAmount)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="200" width="200" height="80" as="geometry" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-41" value="Purchase (PurchaseID (PK), PurchaseDate, TotalAmount)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="538" width="345" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-42" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-39" target="E3tA3_1hQCFTeYViq01W-41">
+        <mxCell id="E3tA3_1hQCFTeYViq01W-42" parent="1" source="E3tA3_1hQCFTeYViq01W-39" target="E3tA3_1hQCFTeYViq01W-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-43" value="IncludedIn" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="220" width="100" height="60" as="geometry" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-43" value="IncludedIn" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="702" y="378" width="154" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-44" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-41" target="E3tA3_1hQCFTeYViq01W-43">
+        <mxCell id="E3tA3_1hQCFTeYViq01W-44" parent="1" source="E3tA3_1hQCFTeYViq01W-41" target="E3tA3_1hQCFTeYViq01W-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-45" value="Book (BookID (PK), Title, Author, Publisher, PubDate, NumberPages, Condition, Cost, DatePurchased)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="200" width="300" height="100" as="geometry" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-45" value="Book (BookID (PK), Title, Author, Publisher, PubDate, NumberPages, Condition, Cost, DatePurchased)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="160" width="591" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="E3tA3_1hQCFTeYViq01W-46" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-43" target="E3tA3_1hQCFTeYViq01W-45">
+        <mxCell id="E3tA3_1hQCFTeYViq01W-46" parent="1" source="E3tA3_1hQCFTeYViq01W-43" target="E3tA3_1hQCFTeYViq01W-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zGZn1TbLW26TUTzJxyYW" name="Page-2">
+    <mxGraphModel dx="3185" dy="1522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XfxCUz6MHubzHDdny6dD-1" value="Student (StudentID (PK), Name, Major, Year)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="102" width="302" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-2" value="AdvisedBy M (StudentID) : 1 (AdvisorID)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="141" width="208" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-3" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-1" target="XfxCUz6MHubzHDdny6dD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-4" value="Advisor (AdvisorID (PK), Name, Department)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="52" width="287" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-5" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-2" target="XfxCUz6MHubzHDdny6dD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-6" value="BelongsTo M (StudentID) : N (ClubID)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="391" width="256" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-7" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-1" target="XfxCUz6MHubzHDdny6dD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-8" value="Club (ClubID (PK), Name, Purpose)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="317" width="200" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-9" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-6" target="XfxCUz6MHubzHDdny6dD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-10" value="Sponsors 1 (ClubID) : M (ActivityID)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="253" width="229" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-11" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-8" target="XfxCUz6MHubzHDdny6dD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-12" value="Activity (ActivityID (PK), Name, Date, Location)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="933" y="210" width="243" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-13" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-10" target="XfxCUz6MHubzHDdny6dD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-14" value="ModeratedBy 1 (ClubID) : 1 (ModeratorID)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="769" y="23" width="292" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-15" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-8" target="XfxCUz6MHubzHDdny6dD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfxCUz6MHubzHDdny6dD-16" edge="1" parent="1" source="XfxCUz6MHubzHDdny6dD-14" target="XfxCUz6MHubzHDdny6dD-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
