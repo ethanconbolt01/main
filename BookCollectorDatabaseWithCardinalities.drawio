@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="Book Collector Database" id="ia-PKxlBBmLhG2BXV1nQ">
+    <mxGraphModel dx="906" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E3tA3_1hQCFTeYViq01W-38" value="Seller (SellerID (PK), Name, ContactInfo)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-39" value="Supplies" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-40" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-38" target="E3tA3_1hQCFTeYViq01W-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-41" value="Purchase (PurchaseID (PK), PurchaseDate, TotalAmount)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-42" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-39" target="E3tA3_1hQCFTeYViq01W-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-43" value="IncludedIn" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-44" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-41" target="E3tA3_1hQCFTeYViq01W-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-45" value="Book (BookID (PK), Title, Author, Publisher, PubDate, NumberPages, Condition, Cost, DatePurchased)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3tA3_1hQCFTeYViq01W-46" edge="1" parent="1" source="E3tA3_1hQCFTeYViq01W-43" target="E3tA3_1hQCFTeYViq01W-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
