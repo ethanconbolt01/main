@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.0.16">
   <diagram name="Page-1" id="rB2WxnaQZvf0U1Fb7KZb">
-    <mxGraphModel dx="2223" dy="3062" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3172" dy="3305" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,13 +182,10 @@
           <mxGeometry x="52" width="91" height="58" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-74" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-116" y="411" width="232" height="267" as="geometry" />
+          <mxGeometry x="-94" y="498" width="232" height="267" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-75" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.siem_2;" parent="atq9XM1EqbKEKQPpxazZ-74" vertex="1">
           <mxGeometry x="19" y="77" width="194" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="atq9XM1EqbKEKQPpxazZ-76" value="SIEM SYSTEM&lt;br&gt;192.168.1.30 | Port 514 | VLAN 60" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="atq9XM1EqbKEKQPpxazZ-74" vertex="1">
-          <mxGeometry x="0.44999999999999996" y="153" width="232" height="53" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-77" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -215,7 +212,7 @@
           <mxGeometry x="219.45" y="565" width="148" height="185" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-82" value="MANAGEMENT SYSTEM&lt;br&gt;192.168.4.0/24 | VLAN 70" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="179.45" y="650" width="270" height="55" as="geometry" />
+          <mxGeometry x="396" y="630" width="270" height="55" as="geometry" />
         </mxCell>
         <mxCell id="YqpUR3tjpxk_YbzKpwHo-1" value="PA Security&#xa;Gateway" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="166.45" y="-402" width="48" height="48" as="geometry" />
@@ -230,6 +227,9 @@
             <mxPoint x="190.49999999999997" y="-484" as="sourcePoint" />
             <mxPoint x="190.49999999999997" y="-408" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="atq9XM1EqbKEKQPpxazZ-76" value="SIEM SYSTEM&lt;br&gt;192.168.1.30 | Port 514 | VLAN 60" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-92" y="793" width="232" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
