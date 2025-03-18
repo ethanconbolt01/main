@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.1">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="1570" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hMhL64lzoe1i30NHURcU-4" value="[ CLIENTS ]" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-5" value="&lt;div&gt;PK client_id&lt;/div&gt;&lt;div&gt;client_name&lt;/div&gt;&lt;div&gt;contact_email&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;address&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="hMhL64lzoe1i30NHURcU-4">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hMhL64lzoe1i30NHURcU-5" target="hMhL64lzoe1i30NHURcU-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-7" value="[ PROJECTS ]" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-8" value="&lt;div&gt;PK project_id&lt;/div&gt;&lt;div&gt;FK client_id&lt;/div&gt;&lt;div&gt;project_name&lt;/div&gt;&lt;div&gt;panel_type&lt;/div&gt;&lt;div&gt;project_cost&lt;/div&gt;&lt;div&gt;status&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="hMhL64lzoe1i30NHURcU-7">
+          <mxGeometry y="50" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-9" value="[ PROJECT_ASSIGNMENTS ]" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="225" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-10" value="&lt;div&gt;PK assignment_id&lt;/div&gt;&lt;div&gt;FK project_id&lt;/div&gt;&lt;div&gt;FK employee_id&lt;/div&gt;&lt;div&gt;role_in_project&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="hMhL64lzoe1i30NHURcU-9">
+          <mxGeometry y="50" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-11" value="[ EMPLOYEES ]" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-12" value="&lt;div&gt;PK employee_id&lt;/div&gt;&lt;div&gt;first_name&lt;/div&gt;&lt;div&gt;last_name&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="hMhL64lzoe1i30NHURcU-11">
+          <mxGeometry y="50" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hMhL64lzoe1i30NHURcU-8" target="hMhL64lzoe1i30NHURcU-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="590" y="190" as="sourcePoint" />
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMhL64lzoe1i30NHURcU-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="hMhL64lzoe1i30NHURcU-12" target="hMhL64lzoe1i30NHURcU-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="520" y="625" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
