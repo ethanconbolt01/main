@@ -42,8 +42,8 @@
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-594" y="-104" as="sourcePoint" />
-            <mxPoint x="-599" y="17" as="targetPoint" />
+            <mxPoint x="-620" y="21" as="sourcePoint" />
+            <mxPoint x="-625" y="142" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-30" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -65,7 +65,7 @@
           <mxGeometry width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-35" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-706" y="31" width="207" height="160" as="geometry" />
+          <mxGeometry x="-732" y="156" width="207" height="160" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-25" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.vm_linux;" parent="atq9XM1EqbKEKQPpxazZ-35" vertex="1">
           <mxGeometry x="44" y="55" width="119" height="105" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry y="-13" width="207" height="40" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-37" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-679" y="-265" width="195" height="147" as="geometry" />
+          <mxGeometry x="-705" y="-140" width="195" height="147" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-38" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" parent="atq9XM1EqbKEKQPpxazZ-37" vertex="1">
           <mxGeometry y="73" width="195" height="74" as="geometry" />
