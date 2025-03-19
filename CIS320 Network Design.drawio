@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
   <diagram name="Page-1" id="rB2WxnaQZvf0U1Fb7KZb">
-    <mxGraphModel dx="2714" dy="2173" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1711" dy="1663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,7 +214,7 @@
         <mxCell id="atq9XM1EqbKEKQPpxazZ-82" value="MANAGEMENT SYSTEM&lt;br&gt;192.168.4.0/24 | VLAN 70" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="396" y="630" width="270" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="YqpUR3tjpxk_YbzKpwHo-1" value="PA Security&#xa;Gateway" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="YqpUR3tjpxk_YbzKpwHo-1" value="PA Security&#xa;Gateway" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;direction=south;strokeWidth=14;perimeterSpacing=15;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="166.45" y="-402" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="YqpUR3tjpxk_YbzKpwHo-2" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm--vpn-for-vpc" parent="YqpUR3tjpxk_YbzKpwHo-1" vertex="1">
