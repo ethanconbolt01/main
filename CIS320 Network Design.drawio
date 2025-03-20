@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.1">
   <diagram name="Page-1" id="rB2WxnaQZvf0U1Fb7KZb">
-    <mxGraphModel dx="4087" dy="2967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3655" dy="3007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="112" y="-191" as="sourcePoint" />
+            <mxPoint x="127" y="-183" as="sourcePoint" />
             <mxPoint x="-356" y="394" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-305" y="-72" />
@@ -201,7 +201,7 @@
         <mxCell id="atq9XM1EqbKEKQPpxazZ-27" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" parent="1" vertex="1">
           <mxGeometry x="652" y="96" width="195" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="-132" as="sourcePoint" />
             <mxPoint x="629" y="127" as="targetPoint" />
@@ -210,7 +210,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-10" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-10" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="919" y="-318" width="261" height="277" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-59" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" parent="P1yQpltBxYefnC-O6TjI-10" vertex="1">
@@ -219,7 +219,7 @@
         <mxCell id="atq9XM1EqbKEKQPpxazZ-60" value="DATABASE SERVER&lt;div&gt;192.168.1.20 | Port 5432 | VLAN 50&lt;/div&gt;" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="P1yQpltBxYefnC-O6TjI-10" vertex="1">
           <mxGeometry width="261" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-11" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-11" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="516" y="-272" width="195" height="198" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-53" value="" style="group" parent="P1yQpltBxYefnC-O6TjI-11" vertex="1" connectable="0">
@@ -231,7 +231,7 @@
         <mxCell id="atq9XM1EqbKEKQPpxazZ-55" value="&lt;div&gt;DMZ /&amp;nbsp; VLAN 50&lt;/div&gt;" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;direction=south;" parent="P1yQpltBxYefnC-O6TjI-11" vertex="1">
           <mxGeometry x="42.75" width="109.5" height="63.5" as="geometry" />
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-14" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1113" y="349" width="270" height="258" as="geometry" />
         </mxCell>
         <mxCell id="atq9XM1EqbKEKQPpxazZ-81" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#F58534;gradientColor=none;" parent="P1yQpltBxYefnC-O6TjI-14" vertex="1">
@@ -240,7 +240,7 @@
         <mxCell id="atq9XM1EqbKEKQPpxazZ-82" value="MANAGEMENT SYSTEM&lt;br&gt;192.168.4.0/24 | VLAN 70" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="P1yQpltBxYefnC-O6TjI-14" vertex="1">
           <mxGeometry width="270" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-16" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-16" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="346" y="611.5" width="232" height="185" as="geometry" />
         </mxCell>
         <mxCell id="1QcZNAF5812DmXHD7ENE-6" value="" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="P1yQpltBxYefnC-O6TjI-16" vertex="1">
@@ -254,7 +254,7 @@
         <mxCell id="1QcZNAF5812DmXHD7ENE-9" value="ELASTIC STACK SYSTEM" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="P1yQpltBxYefnC-O6TjI-16" vertex="1">
           <mxGeometry width="232" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="P1yQpltBxYefnC-O6TjI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P1yQpltBxYefnC-O6TjI-16" source="1QcZNAF5812DmXHD7ENE-6" target="1QcZNAF5812DmXHD7ENE-9">
+        <mxCell id="P1yQpltBxYefnC-O6TjI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="P1yQpltBxYefnC-O6TjI-16" source="1QcZNAF5812DmXHD7ENE-6" target="1QcZNAF5812DmXHD7ENE-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
